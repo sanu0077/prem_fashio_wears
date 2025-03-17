@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Section */
+.title-section {
+    margin-top: 20px;
+}
+
+.title-section h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.title-section p {
+    font-size: 18px;
+    color: #ffdb00;
+}
+
+/* Countdown Timer */
+.countdown {
+    font-size: 20px;
+    color: #ff8f00;
+    margin-top: 10px;
+}
+
+/* Display Section */
+.display-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+/* Main Image */
+.main-image {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+/* Background Items */
+.item {
+    position: absolute;
+    width: 120px;
+    opacity: 0.7;
+}
+
+/* Positioning Background Items */
+.item-left-top {
+    left: 15%;
+    top: 20%;
+}
+
+.item-left-bottom {
+    left: 18%;
+    bottom: 10%;
+}
+
+.item-right-top {
+    right: 15%;
+    top: 20%;
+}
+
+.item-right-bottom {
+    right: 18%;
+    bottom: 10%;
+}
+
+/* Google Maps Button */
+.map-section {
+    margin-top: 30px;
+}
+
+.map-button {
+    background-color: #ff8f00;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.map-button:hover {
+    background-color: #ffdb00;
+    color: black;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .main-image {
+        width: 180px;
+    }
+
+    .item {
+        width: 90px;
+    }
+
+    .item-left-top {
+        left: 5%;
+    }
+
+    .item-left-bottom {
+        left: 10%;
+    }
+
+    .item-right-top {
+        right: 5%;
+    }
+
+    .item-right-bottom {
+        right: 10%;
+    }
+}
