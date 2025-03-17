@@ -3,64 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prem Fashion Wear - Coming Soon</title>
+    <title>Prem Fashion Wear</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Shop Name -->
-    <div class="shop-name">
-        <h1>Prem Fashion Wear</h1>
-    </div>
+    <!-- Background with Gradient & Waves -->
+    <div class="background">
 
-    <!-- Countdown Timer -->
-    <div class="countdown">
-        <p>Opening In:</p>
-        <span id="timer"></span>
-    </div>
+        <!-- Shop Name -->
+        <h1 class="shop-name">Prem Fashion Wear</h1>
 
-    <!-- Google Maps Button -->
-    <div class="map-section">
-        <a href="https://www.google.com/maps?q=your+store+location" target="_blank" class="map-button">📍 Find Us on Google Maps</a>
-    </div>
-
-    <!-- Our Items Section -->
-    <div class="items-title">
-        <h2>Our Items</h2>
-    </div>
-
-    <!-- Main Display Section -->
-    <div class="display-section">
-        <!-- Background Items with Labels -->
-        <div class="item-box item-left-top">
-            <img src="assets/tshirt.png" alt="T-Shirt">
-            <p>T-Shirt</p>
+        <!-- Countdown Timer -->
+        <div class="countdown-container">
+            <div>
+                <div class="flip-box" id="days">
+                    <div class="flip-top">00</div>
+                    <div class="flip-bottom">00</div>
+                </div>
+                <p class="label">DAYS</p>
+            </div>
+            <div>
+                <div class="flip-box" id="hours">
+                    <div class="flip-top">00</div>
+                    <div class="flip-bottom">00</div>
+                </div>
+                <p class="label">HOURS</p>
+            </div>
+            <div>
+                <div class="flip-box" id="minutes">
+                    <div class="flip-top">00</div>
+                    <div class="flip-bottom">00</div>
+                </div>
+                <p class="label">MINUTES</p>
+            </div>
+            <div>
+                <div class="flip-box" id="seconds">
+                    <div class="flip-top">00</div>
+                    <div class="flip-bottom">00</div>
+                </div>
+                <p class="label">SECONDS</p>
+            </div>
         </div>
 
-        <div class="item-box item-left-bottom">
-            <img src="assets/pants.png" alt="Pants">
-            <p>Pants</p>
+        <!-- Google Maps Button -->
+        <div class="map-button-container">
+            <a href="https://www.google.com/maps/search/Prem+Fashion+Wear" target="_blank" class="map-button">📍 Locate Us on Google Maps</a>
         </div>
 
-        <div class="item-box item-right-top">
-            <img src="assets/watch.png" alt="Watch">
-            <p>Smart Watch</p>
+        <!-- Our Items Title -->
+        <h2 class="our-items-title">Our Items</h2>
+
+        <!-- Main Image with Items in Background -->
+        <div class="image-container">
+            <img src="assets/img1.png" alt="Main Fashion Item" class="main-image">
+
+            <!-- Background Items -->
+            <div class="item item-left-1"><img src="assets/item1.png" alt="T-Shirt"><p>T-Shirt</p></div>
+            <div class="item item-left-2"><img src="assets/item1.png" alt="Pant"><p>Pant</p></div>
+            <div class="item item-right-1"><img src="assets/item1.png" alt="Jacket"><p>Jacket</p></div>
+            <div class="item item-right-2"><img src="assets/item1.png" alt="Shoes"><p>Shoes</p></div>
         </div>
 
-        <div class="item-box item-right-bottom">
-            <img src="assets/shoes.png" alt="Shoes">
-            <p>Shoes</p>
+        <!-- More Items Button -->
+        <div class="more-items-container">
+            <a href="more-items.html" class="more-items-button">More Items →</a>
         </div>
 
-        <!-- Main Model -->
-        <img src="assets/img1.png" class="main-image" alt="Main Model">
-    </div>
-
-    <!-- More Items Button -->
-    <div class="more-items-section">
-        <a href="more-items.html" class="more-items-button">See More Items ➡️</a>
     </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
