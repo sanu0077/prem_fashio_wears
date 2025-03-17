@@ -3,37 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothing Store - Coming Soon</title>
+    <title>Prem Fashion Wear - Coming Soon</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Title Section -->
-    <div class="title-section">
-        <h1>Our Items</h1>
-        <p>More Items...</p>
-        
-        <!-- Countdown Timer -->
-        <div class="countdown">
-            <p>Opening in: <span id="timer"></span></p>
-        </div>
+    <!-- Shop Name -->
+    <div class="shop-name">
+        <h1>Prem Fashion Wear</h1>
+    </div>
+
+    <!-- Countdown Timer -->
+    <div class="countdown">
+        <p>Opening In:</p>
+        <span id="timer"></span>
+    </div>
+
+    <!-- Google Maps Button -->
+    <div class="map-section">
+        <a href="https://www.google.com/maps?q=your+store+location" target="_blank" class="map-button">📍 Find Us on Google Maps</a>
+    </div>
+
+    <!-- Our Items Section -->
+    <div class="items-title">
+        <h2>Our Items</h2>
     </div>
 
     <!-- Main Display Section -->
     <div class="display-section">
-        <!-- Background Items -->
-        <img src="assets/item1.png" class="item item-left-top" alt="Item 1">
-        <img src="assets/item1.png" class="item item-left-bottom" alt="Item 2">
-        <img src="assets/item1.png" class="item item-right-top" alt="Item 3">
-        <img src="assets/item1.png" class="item item-right-bottom" alt="Item 4">
+        <!-- Background Items with Labels -->
+        <div class="item-box item-left-top">
+            <img src="assets/tshirt.png" alt="T-Shirt">
+            <p>T-Shirt</p>
+        </div>
+
+        <div class="item-box item-left-bottom">
+            <img src="assets/pants.png" alt="Pants">
+            <p>Pants</p>
+        </div>
+
+        <div class="item-box item-right-top">
+            <img src="assets/watch.png" alt="Watch">
+            <p>Smart Watch</p>
+        </div>
+
+        <div class="item-box item-right-bottom">
+            <img src="assets/shoes.png" alt="Shoes">
+            <p>Shoes</p>
+        </div>
 
         <!-- Main Model -->
         <img src="assets/img1.png" class="main-image" alt="Main Model">
     </div>
 
-    <!-- Google Maps Button -->
-    <div class="map-section">
-        <a href="https://www.google.com/maps?q=your+store+location" target="_blank" class="map-button">Find Us on Google Maps</a>
+    <!-- More Items Button -->
+    <div class="more-items-section">
+        <a href="more-items.html" class="more-items-button">See More Items ➡️</a>
     </div>
 
     <script src="script.js"></script>

@@ -5,7 +5,7 @@ function startCountdown(targetDate) {
         const timeLeft = targetDate - now;
 
         if (timeLeft < 0) {
-            document.getElementById("timer").innerHTML = "Store is Open!";
+            document.getElementById("timer").innerHTML = "🚀 Store is Open!";
             return;
         }
 
